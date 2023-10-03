@@ -1,0 +1,645 @@
+AQL许可证
+第 1 版，2023 年 10 月 3 日
+
+版权所有（C）2023 AQ-Project
+
+【声明】
+
+AQL许可证是一个免费的、保护相关著作权的法律声明和其它类型的作品。
+
+任何人（除许可证创建者及获得许可证创建者授权外）都可以复制和分发逐字副本该许可文件的内容，但不允许更改。
+
+如果您希望使用AQL许可证，请先获得许可证创建者的授权。
+
+为避免法律争议，本协议以中文版本为准，其它版本仅供参考。
+
+【条款和条件】
+
+〇、	定义
+
+“本协议”指AQL许可证第一版。
+
+“版权”指代所有著作权及相关法律（也指适用于诸如半导体掩模的其他类型作品的类似法律）。
+
+“本程序”指任何在本协议保护下的有版权的任何作品。每个许可获得者称作“你”。“许可获得者”和“接收者”可以是个人或组织及任何可承担责任的事务（例如某公司管理的自动化程序）。
+
+“修改”一个作品指任何形式的复制及对作品全面的或部分的改编行为，不包括制作副本。所产生的作品称作前作的“修改版”，或“基于”前作的作品。
+
+	“受保护作品”指程序或其派生作品。
+
+“传播”作品指那些未经许可就会在适用版权法律下构成直接或间接侵权的行为，包括在计算机上运行和私下的修改。传播包括复制、分发（无论修改与否）、向公众公开，以及在某些国家的其他行为。
+
+“转发”作品指让他方能够制作或者接收副本的行为。仅仅通过计算机网络和用户交互，没有传输副本，则不算转发。
+
+一个显示“适当的法律声明”的交互式用户界面应包括一个便捷而醒目的可视化特性：(1)显示适当的版权声明；(2)告知用户没有品质担保（提供了品质担保的情况除外）。
+
+一、	源码
+
+作品的源码指其可修改的首选形式，目标码指所有其他形式。
+
+“标准接口”指标准化组织定义的官方标准中的接口，或针为某种编程语言设定的接口中为开发者广泛使用的接口。
+
+可执行作品中的“系统库”不是指整个程序，而是涵盖此等内容：(a)以通常形式和主部件打包到一起却并非后者一部分，且(b)仅为和主部件一起使作品可用或实现某些已有公开实现源码的接口。“主部件”在这里指可执行作品运行依赖的操作系统（如果存在）的必要部件（内核、窗口系统等），生成该作品的编译器，或运行所需的目标码解释器。
+
+目标码形式的作品中“相应的源码”指所有修改作品及生成、安装、运行（对可执行作品而言）目标码所需的源码，包括控制上述行为的脚本。
+
+源码形式作品的相应源码即其本身。
+
+二、	基本许可
+
+	本协议的一切授权都是对本程序的版权而言的。在遵守本协议的前提下，明确批准你不受限制地运行、修改、传播、转发本程序的任何公开发布版本。
+
+仅当满足后文所述条件时，其他各种情况下的各种行为（包括上文提及的权利）才是允许的。
+
+三、	转发完整副本
+
+你可以通过任何媒介发布你接收到的本程序的完整源码副本，但要做到：为每一个副本醒目而恰当地发布版权（在发布时和转发给用户前应标明本程序的名称、简介及许可证内容）；完整地保留关于本协议及相关协议要求内容；完整地保留免责声明；给接收者附上一份本协议的副本。
+
+你可以免费或收费转发，也可以选择提供技术支持或品质担保（如果更改源码，请遵守第四条的规定）以换取收入。
+
+四、转发修改过的源码版本
+
+你可以以源码形式转发基于本程序的作品或修改的内容，除满足相关要求外还需要满足以下几点要求：
+
+a)	该作品必须带有醒目的修改声明（包括修改内容，功能）及相应的日期。
+
+b)	该作品必须带有醒目的声明，指出其在本协议及相关条件下发布。
+
+c)	你必须按照本协议将该作品整体向本程序创建者授权，同时允许创建者向第三方授权（第三方不能再授权），这样将保证本程序的开发工作（仅允许进行开发工作，本程序创建者不能处于商业用途及其它原因进行再授权和相关活动），即使您的程序是商业程序。本协议及相关条件就此适用于整个作品，即其每一部分，不管如何建包。本协议允许您添加自有条款，但不能以任何形式违反本协议中的内容，否则此条款无效，但如果你收到别的许可则另当别论。
+
+d)	如果该作品有交互式用户界面，则其必须显示适当的相关声明。
+
+e)	如果您的程序是商业程序，您可以只遵守(d)条款，仅向本程序创建者提供授权和再授权。
+
+f)	此条款中“授权“指允许本程序创建者拥有相关授权，可以查看和使用前作的”修改版“源码（如果前作的”修改版“是商业软件则创建者有义务保护商业机密，不能公开源码及作品，但仍可以使用部分源码及作品进行程序的开发工作，不提及源码及作品出处，除非获得修改者的授权）、使用前作的”修改版“的程序（仅允许进行开发工作，本程序创建者不能处于商业用途及其它原因进行再授权和相关活动），并推荐前作的”修改版“的程序（不同意请联系本程序创建者）。
+
+g)	商业软件指未向用户公开源码且存在盈利模式或有特定原因对源码进行保护的程序。
+
+一个在存储或分发媒介上的受保护作品和其他分离的单体作品的联合作品，在既不是该受保护作品的自然扩展，也不以构筑更大的程序为目的，并且自身及其产生的版权并非用于限制单体作品给予联合作品用户的访问及其他合法权利时，称为“聚合体”。在聚合作品中同样适用本协议，如果其它作品条款与本协议存在冲突，请勿创建、使用、转发、传播、修改此作品。
+
+五、以其它形式转发
+
+	遵循第四条的相关规定。
+
+六、附加条款
+
+	本协议可能存在漏洞或不适应未来的形式。因此，为了避免这样的情况发生，本协议可以通过更新的方式进行弥补。新的协议将有15天的公示期，您在使用、修改、转发、传播本程序时，应当查阅最新的许可协议，如果您不同意许可协议，可以与本程序创建者讨论并商议新的授权协议/方式。否则，在公示期结束后，您应当停止本软件的使用。任何行为都应当遵守新的协议，协议的更新适用于旧版本，但如果协议已经更新，您在新协议公示期结束前下载的软件将仍具有使用权（仅具有此权利），但如果您在协议公示期结束后下载旧版软件，将以新协议为准。
+
+七、终止授权
+
+	您的任何违反本协议行为和收到投诉（例如国家权力机关的要求）都将导致终止授权（包括但不限于其衍生作品，即前作的“修改版“）。
+
+然而，当你不再违反本协议及相关投诉撤销时，你从特定版权持有人处获得的授权恢复：(1)暂时恢复，直到版权持有人明确终止；(2)永久恢复，如果版权持有人没能在60天内以合理的方式指出你的侵权行为。
+
+八、不得牺牲他人的自由
+
+即便你面临与本协议条款冲突的条件（来自于法庭要求、协议或其他），那也不能成为您违背本协议的理由。倘若您不能满足本协议和其它要求，您应该不进行违反协议的行为（例如不使用、不修改、不转发等）。
+
+九、不提供担保/责任范围
+
+	本程序在适用法律范围内不提供品质担保。除非另作书面声明，版权持有人及其他程序提供者“概”不提供任何显式或隐式的品质担保，品质担保所指包括而不仅限于有经济价值和适合特定用途的保证。全部风险，如程序的质量和性能问题，皆由你承担。若程序出现缺陷，你将承担所有必要的修复和更正服务的费用。任何版权持有人或本程序按本协议可能存在的第三方修改和再发布者，都不对你的损失负有责任，包括由于使用或者不能使用本程序造成的任何一般的、特殊的、偶发的或重大的损失（包括而不仅限于数据丢失、数据失真、你或第三方的后续损失、其他程序无法与本程序协同运作）。
+
+协议结束。
+AQL许可证
+第一版
+2023年10月3日
+
+
+
+AQL License
+Edition 1, October 3, 2023
+
+Copyright (C) 2023 AQ-Project
+
+【statement】
+
+The AQL license is a free legal notice that protects copyrights and other types of works.
+
+Anyone (other than the license creator and authorized by the license creator) may copy and distribute verbatim copies of the contents of this license file, but no changes are permitted.
+
+If you wish to use an AQL license, please first obtain authorization from the license creator.
+
+To avoid legal disputes, the Chinese version of this agreement shall prevail, and other versions are for reference only.
+
+【terms and Conditions】
+
+〇. Definition
+
+"This Agreement" refers to the first version of the AQL License.
+
+"Copyright" means all copyright and related laws (and also similar laws applicable to other types of works such as semiconductor masks).
+
+"The Program" means any copyrighted work protected by this Agreement. Each licensee is referred to as "you". "Permit holders" and "recipients" can be individuals or organizations and any responsible matter (for example, an automated process managed by a company).
+
+"Modification" of a work means any form of reproduction and adaptation of the work in whole or in part, excluding making copies. The resulting work is called a "modified version" of the preceding work, or a work "based on" the preceding work.
+
+"Protected Work" means the Program or a derivative work thereof.
+
+"Propagating" a work means any act that would constitute a direct or indirect infringement under applicable copyright law, including running on a computer and private modification, without permission. Propagation includes reproduction, distribution (with or without modification), disclosure to the public, and in some countries other acts.
+
+"Forwarding" a work means the act of enabling another party to make or receive copies. Merely interacting with users through a computer network without transmitting a copy is not considered forwarding.
+
+An interactive user interface that displays an "appropriate legal notice" should include a convenient and eye-catching visual feature that: (1) displays an appropriate copyright notice; and (2) informs the user that there is no warranty (unless a warranty is provided).
+
+1. Source code
+
+Source code of a work refers to its preferred modifiable form, and object code refers to all other forms.
+
+"Standard interface" refers to an interface in an official standard defined by a standardization organization, or an interface set for a certain programming language that is widely used by developers.
+
+"System libraries" in an executable work do not refer to the entire program, but include content that: (a) is packaged with the main component in its usual form but is not part of the latter, and (b) is used only with the main component The work can use or implement certain interfaces that have publicly implemented source code. "Main component" here refers to the necessary components (kernel, window system, etc.) of the operating system (if any) on which the executable work depends, the compiler that generates the work, or the object code interpreter required to run the work.
+
+"Corresponding source code" in a work in object code form means all source code required to modify the work and generate, install, and run (for executable works) the object code, including scripts that control the above actions.
+
+The Corresponding Source of a work in source form is itself.
+
+2. Basic License
+
+All rights granted in this Agreement are for the copyright in the Program. Subject to this Agreement, you are expressly granted unrestricted permission to run, modify, distribute, and forward any publicly released version of the Program.
+
+Various actions in various other situations (including the rights mentioned above) are permitted only if the conditions stated below are met.
+
+3. Forward a complete copy
+
+You may distribute the complete source code copy of the Program you receive through any medium, but you must: prominently and appropriately publish the copyright for each copy (the name, introduction, and description of the Program should be indicated when publishing and before forwarding to users. License content); completely retain the content of this Agreement and related agreement requirements; completely retain the disclaimer; and attach a copy of this Agreement to the recipient.
+
+You can forward it for free or for a fee, or you can choose to provide technical support or quality assurance (if you change the source code, please comply with the provisions of Article 4) in exchange for income.
+
+4. Forward the modified source code version
+
+You can forward works or modified content based on this program in source code form. In addition to meeting the relevant requirements, you also need to meet the following requirements:
+
+a) The work must bear an eye-catching modification statement (including modified content and functions) and the corresponding date.
+
+b) The work must bear a prominent statement stating that it is released under this Agreement and related conditions.
+
+c) You must authorize the work as a whole to the creator of this program in accordance with this agreement, and allow the creator to authorize it to a third party (the third party cannot re-authorize). This will ensure the development of this program (only development work is allowed, this program The program creator cannot sublicense and related activities for commercial purposes and other reasons), even if your program is a commercial program. This Agreement and related conditions hereby apply to the entire work, that is, to every part of it, regardless of how it is packaged. This Agreement allows you to add your own terms, but you cannot violate the contents of this Agreement in any form, otherwise this term will be invalid, but this will be different if you receive other permissions.
+
+d) If the work has an interactive user interface, it must display appropriate related notices.
+
+e) If your program is a commercial program, you may only comply with clause (d) and provide licenses and sublicenses only to the creator of the program.
+
+f) "Authorization" in this clause refers to allowing the creator of this program to have relevant authorization to view and use the source code of the "modified version" of the previous work (if the "modified version" of the previous work is commercial software, the creator is obligated to protect commercial secrets and cannot Disclose the source code and works, but you can still use part of the source code and works for program development, without mentioning the source code and the source of the work, unless authorized by the modifier), use the "modified version" of the previous work (only development work is allowed , the creator of this program cannot sublicense and related activities for commercial purposes and other reasons), and recommends the "modified version" of the previous program (please contact the creator of this program if you disagree).
+
+g) Commercial software refers to programs that do not disclose source code to users and have a profit model or have specific reasons to protect the source code.
+
+A joint work of a protected work and other separate separate works on a storage or distribution medium that is neither a natural extension of the protected work nor serves the purpose of framing a larger program and is neither itself nor its source When copyright is not used to restrict the access and other legal rights of a single work to users of a joint work, it is called an "aggregate". This Agreement also applies to aggregated works. If the terms of other works conflict with this Agreement, please do not create, use, forward, disseminate, or modify this work.
+
+5. Forwarding in other forms
+
+Follow the relevant provisions of Article 4.
+
+6. Additional Terms
+
+This Agreement may contain loopholes or may not adapt to future forms. Therefore, in order to avoid such a situation from happening, this Agreement can be compensated by updating it. The new agreement will have a 15-day publicity period. You should check the latest license agreement when using, modifying, forwarding, and disseminating this program. If you do not agree with the license agreement, you can discuss and negotiate a new authorization with the creator of this program. Agreement/Method. Otherwise, you should stop using the software after the publicity period ends. Any behavior should abide by the new agreement. The update of the agreement is applicable to the old version, but if the agreement has been updated, you will still have the right to use the software you downloaded before the end of the publicity period of the new agreement (only this right), but if you are in If you download the old version of the software after the agreement publicity period ends, the new agreement will prevail.
+
+7. Termination of authorization
+
+Any violation of this Agreement by you and receipt of complaints (such as requests from state authorities) will result in the termination of the authorization (including but not limited to its derivative works, that is, the "modified version" of the previous work).
+
+However, when you no longer violate this Agreement and the related complaint is revoked, your authorization from a specific copyright holder is restored: (1) temporarily until explicitly terminated by the copyright holder; (2) permanently if the copyright holder The holder fails to point out your infringement in a reasonable manner within 60 days.
+
+8. Do not sacrifice the freedom of others
+
+Even if you face conditions that conflict with the terms of this Agreement (resulting from court requirements, agreements, or otherwise), that will not be a reason for you to breach this Agreement. If you cannot meet this Agreement and other requirements, you should not violate the Agreement (such as not using, not modifying, not forwarding, etc.).
+
+9. No guarantee/scope of liability provided
+
+There is no warranty for the quality of this program within the scope of applicable law. Unless otherwise stated in writing, the copyright holder and other program providers "do not" provide any explicit or implicit quality warranties, which include but are not limited to warranties of economic value and fitness for a particular purpose. The entire risk as to the quality and performance of the Program is solely with you. IN THE EVENT OF A DEFECT IN THE PROGRAM, YOU ASSUME THE COST OF ALL NECESSARY REPAIR AND CORRECTIVE SERVICES. No copyright holder or third party modification or redistributor of the program that may exist under this agreement shall be liable for your losses, including any general, special, or incidental damages resulting from the use or inability to use the program. or significant losses (including but not limited to data loss, data distortion, subsequent losses to you or a third party, and the inability of other programs to operate in conjunction with this program).
+
+The agreement ends.
+AQL License
+first edition
+October 3, 2023
+
+
+
+ترخيص عقل
+العدد 1، 3 أكتوبر 2023
+
+حقوق الطبع والنشر (C) 2023 AQ-Project
+
+【إفادة】
+
+ترخيص AQL عبارة عن إشعار قانوني مجاني يحمي حقوق الطبع والنشر وأنواع الأعمال الأخرى.
+
+يجوز لأي شخص (بخلاف منشئ الترخيص والمرخص له من قبل منشئ الترخيص) نسخ وتوزيع نسخ حرفية من محتويات ملف الترخيص هذا، ولكن لا يُسمح بإجراء أي تغييرات.
+
+إذا كنت ترغب في استخدام ترخيص AQL، فيرجى أولاً الحصول على ترخيص من منشئ الترخيص.
+
+لتجنب النزاعات القانونية، تسود النسخة الصينية من هذه الاتفاقية، والنسخ الأخرى هي للإشارة فقط.
+
+【الأحكام والشروط】
+
+〇التعريف
+
+تشير "هذه الاتفاقية" إلى الإصدار الأول من ترخيص AQL.
+
+"حقوق الطبع والنشر" تعني جميع قوانين حقوق الطبع والنشر والقوانين ذات الصلة (وكذلك القوانين المماثلة المطبقة على أنواع أخرى من الأعمال مثل أقنعة أشباه الموصلات).
+
+"البرنامج" يعني أي عمل محمي بحقوق الطبع والنشر ومحمي بموجب هذه الاتفاقية. ويشار إلى كل مرخص له باسم "أنت". يمكن أن يكون "حاملو التصاريح" و"المستلمون" أفرادًا أو مؤسسات وأي جهة مسؤولة (على سبيل المثال، عملية تلقائية تديرها شركة).
+
+"تعديل" المصنف يعني أي شكل من أشكال إعادة إنتاج المصنف وتكييفه كليًا أو جزئيًا، باستثناء عمل النسخ. يُطلق على العمل الناتج اسم "نسخة معدلة" من العمل السابق، أو عمل "مبني على" العمل السابق.
+
+"العمل المحمي" يعني البرنامج أو أي عمل مشتق منه.
+
+"نشر" العمل يعني أي فعل من شأنه أن يشكل انتهاكًا مباشرًا أو غير مباشر بموجب قانون حقوق الطبع والنشر المعمول به، بما في ذلك التشغيل على جهاز كمبيوتر والتعديل الخاص، دون إذن. يشمل النشر النسخ، والتوزيع (مع أو بدون تعديل)، والكشف للجمهور، وفي بعض البلدان أفعال أخرى.
+
+"إعادة توجيه" العمل يعني تمكين طرف آخر من عمل نسخ أو استلامها. إن مجرد التفاعل مع المستخدمين من خلال شبكة كمبيوتر دون إرسال نسخة لا يعتبر إعادة توجيه.
+
+يجب أن تتضمن واجهة المستخدم التفاعلية التي تعرض "إشعارًا قانونيًا مناسبًا" ميزة مرئية مريحة وملفتة للنظر والتي: (1) تعرض إشعارًا مناسبًا لحقوق الطبع والنشر، و(2) تُعلم المستخدم بعدم وجود ضمان (ما لم يكن الضمان موجودًا) متاح).
+
+1. كود المصدر
+
+تشير شفرة المصدر للعمل إلى النموذج المفضل للتعديل، وتشير شفرة الكائن إلى جميع الأشكال الأخرى.
+
+تشير "الواجهة القياسية" إلى واجهة في معيار رسمي تحدده منظمة التقييس، أو واجهة محددة للغة برمجة معينة يستخدمها المطورون على نطاق واسع.
+
+"مكتبات النظام" في العمل القابل للتنفيذ لا تشير إلى البرنامج بأكمله، ولكنها تتضمن المحتوى الذي: (أ) يتم حزمه مع المكون الرئيسي في شكله المعتاد ولكنه ليس جزءًا من الأخير، و (ب) يستخدم فقط مع يمكن للمكون الرئيسي للعمل استخدام أو تنفيذ واجهات معينة تم تطبيق كود المصدر عليها بشكل علني. يشير "المكون الرئيسي" هنا إلى المكونات الضرورية (النواة، نظام النوافذ، إلخ) لنظام التشغيل (إن وجد) الذي يعتمد عليه العمل القابل للتنفيذ، أو المترجم الذي يولد العمل، أو مترجم كود الكائن المطلوب لتشغيل عمل.
+
+"الكود المصدري المقابل" في العمل في نموذج كود الكائن يعني كل كود المصدر المطلوب لتعديل العمل وإنشاء وتثبيت وتشغيل (للأعمال القابلة للتنفيذ) كود الكائن، بما في ذلك البرامج النصية التي تتحكم في الإجراءات المذكورة أعلاه.
+
+المصدر المقابل للعمل في شكل مصدر هو نفسه.
+
+2. الترخيص الأساسي
+
+جميع الحقوق الممنوحة في هذه الاتفاقية هي حقوق الطبع والنشر في البرنامج. بموجب هذه الاتفاقية، يتم منحك إذنًا غير مقيد صراحةً لتشغيل أي إصدار من البرنامج وتعديله وتوزيعه وإعادة توجيهه.
+
+لا يُسمح بإجراءات مختلفة في مواقف أخرى مختلفة (بما في ذلك الحقوق المذكورة أعلاه) إلا في حالة استيفاء الشروط المذكورة أدناه.
+
+3. إعادة توجيه نسخة كاملة
+
+يجوز لك توزيع نسخة الكود المصدري الكاملة للبرنامج التي تتلقاها من خلال أي وسيلة، ولكن يجب عليك: نشر حقوق الطبع والنشر لكل نسخة بشكل بارز ومناسب (يجب الإشارة إلى اسم البرنامج ومقدمته ووصفه عند النشر وقبل إرساله إلى المستخدمين. محتوى الترخيص)؛ والاحتفاظ الكامل بمحتوى هذه الاتفاقية ومتطلبات الاتفاقية ذات الصلة؛ والاحتفاظ الكامل بإخلاء المسؤولية؛ وإرفاق نسخة من هذه الاتفاقية إلى المستلم.
+
+يمكنك إرسالها مجانًا أو مقابل رسوم، أو يمكنك اختيار تقديم الدعم الفني أو ضمان الجودة (إذا قمت بتغيير كود المصدر، يرجى الالتزام بأحكام المادة 4) مقابل الدخل.
+
+4. قم بإعادة توجيه إصدار التعليمات البرمجية المصدر المعدل
+
+يمكنك إعادة توجيه الأعمال أو المحتوى المعدل بناءً على هذا البرنامج في شكل كود المصدر، بالإضافة إلى تلبية المتطلبات ذات الصلة، تحتاج أيضًا إلى تلبية المتطلبات التالية:
+
+أ) يجب أن يحمل العمل بيان تعديل ملفت للنظر (بما في ذلك المحتوى والوظائف المعدلة) والتاريخ المقابل.
+
+ب) يجب أن يحمل العمل بيانًا بارزًا يفيد بأنه تم إصداره بموجب هذه الاتفاقية والشروط ذات الصلة.
+
+ج) يجب عليك تفويض العمل ككل لمنشئ هذا البرنامج وفقًا لهذه الاتفاقية، والسماح للمبدع بتفويضه لطرف ثالث (لا يمكن للطرف الثالث إعادة التفويض). وهذا سيضمن تطوير هذا البرنامج (يسمح فقط بأعمال التطوير، هذا البرنامج لا يمكن لمنشئ البرنامج ترخيصه من الباطن والأنشطة ذات الصلة لأغراض تجارية وأسباب أخرى)، حتى لو كان برنامجك برنامجًا تجاريًا. تنطبق هذه الاتفاقية والشروط ذات الصلة على العمل بأكمله، أي على كل جزء منه، بغض النظر عن كيفية تعبئته. تتيح لك هذه الاتفاقية إضافة شروطك الخاصة، ولكن لا يمكنك انتهاك محتويات هذه الاتفاقية بأي شكل من الأشكال، وإلا فسيكون هذا الشرط غير صالح، ولكن هذا سيكون مختلفًا إذا حصلت على أذونات أخرى.
+
+د) إذا كان العمل يحتوي على واجهة مستخدم تفاعلية، فيجب أن يعرض الإشعارات المناسبة ذات الصلة.
+
+هـ) إذا كان برنامجك برنامجًا تجاريًا، فلا يجوز لك الالتزام إلا بالبند (د) وتقديم التراخيص والتراخيص الفرعية لمنشئ البرنامج فقط.
+
+و) يشير "التفويض" في هذا البند إلى السماح لمنشئ هذا البرنامج بالحصول على التفويض المناسب لعرض واستخدام الكود المصدري لـ "النسخة المعدلة" من العمل السابق (إذا كانت "النسخة المعدلة" من العمل السابق تجارية البرمجيات، يلتزم المنشئ بحماية الأسرار التجارية ولا يمكنه الكشف عن كود المصدر والأعمال، ولكن لا يزال بإمكانك استخدام جزء من كود المصدر والأعمال لتطوير البرنامج، دون ذكر كود المصدر ومصدر العمل، ما لم يتم التصريح بذلك من قبل المعدل)، استخدم "النسخة المعدلة" من العمل السابق (يُسمح فقط بأعمال التطوير، ولا يمكن لمنشئ هذا البرنامج الترخيص من الباطن والأنشطة ذات الصلة لأغراض تجارية وأسباب أخرى)، ويوصي بـ "النسخة المعدلة" من البرنامج السابق (يرجى الاتصال بمنشئ هذا البرنامج إذا كنت لا توافق على ذلك).
+
+ز) تشير البرامج التجارية إلى البرامج التي لا تكشف عن كود المصدر للمستخدمين ولها نموذج ربح أو لديها أسباب محددة لحماية كود المصدر.
+
+عمل مشترك للعمل المحمي وغيره من الأعمال المنفصلة المنفصلة على وسيلة تخزين أو توزيع لا تمثل امتدادًا طبيعيًا للعمل المحمي ولا تخدم غرض تأطير برنامج أكبر ولا تمثل نفسها ولا مصدرها عندما لا يتم استخدام حقوق الطبع والنشر من أجل تقييد الوصول والحقوق القانونية الأخرى لعمل واحد لمستخدمي العمل المشترك، ويسمى "مجمع". تنطبق هذه الاتفاقية أيضًا على الأعمال المجمعة.إذا كانت شروط الأعمال الأخرى تتعارض مع هذه الاتفاقية، فيرجى عدم إنشاء هذا العمل أو استخدامه أو إعادة توجيهه أو نشره أو تعديله.
+
+5. الشحن بأشكال أخرى
+
+اتبع الأحكام ذات الصلة من المادة 4.
+
+6. الشروط الإضافية
+
+قد تحتوي هذه الاتفاقية على ثغرات أو قد لا تتكيف مع النماذج المستقبلية. ولذلك، لتجنب حدوث مثل هذا الموقف، يمكن تعويض هذه الاتفاقية عن طريق تحديثها. ستكون للاتفاقية الجديدة فترة إعلان مدتها 15 يومًا. ويجب عليك التحقق من أحدث اتفاقية ترخيص عند استخدام هذا البرنامج وتعديله وإعادة توجيهه ونشره. إذا كنت لا توافق على اتفاقية الترخيص، فيمكنك مناقشة ترخيص جديد والتفاوض بشأنه مع منشئ هذا البرنامج الاتفاقية/الطريقة. بخلاف ذلك، يجب عليك التوقف عن استخدام البرنامج بعد انتهاء فترة الدعاية. يجب أن يلتزم أي سلوك بالاتفاقية الجديدة، وينطبق تحديث الاتفاقية على الإصدار القديم، ولكن إذا تم تحديث الاتفاقية، فسيظل لديك الحق في استخدام البرنامج الذي قمت بتنزيله قبل نهاية فترة الدعاية للاتفاقية. اتفاقية جديدة (هذا الحق فقط)، ولكن إذا قمت بتنزيل الإصدار القديم من البرنامج بعد انتهاء فترة الدعاية للاتفاقية، فستسود الاتفاقية الجديدة.
+
+7. إنهاء الترخيص
+
+أي انتهاك لهذه الاتفاقية من قبلك وتلقي الشكاوى (مثل الطلبات من سلطات الدولة) سيؤدي إلى إنهاء التفويض (بما في ذلك على سبيل المثال لا الحصر الأعمال المشتقة منه، أي "النسخة المعدلة" من العمل السابق) .
+
+ومع ذلك، عندما لا تنتهك هذه الاتفاقية ويتم إلغاء الشكوى ذات الصلة، تتم استعادة الترخيص الخاص بك من مالك حقوق الطبع والنشر المحدد: (1) مؤقتًا حتى يتم إنهاؤه صراحةً من قبل صاحب حقوق الطبع والنشر؛ (2) بشكل دائم إذا فشل صاحب حقوق الطبع والنشر في القيام بذلك الإشارة إلى انتهاكك بطريقة معقولة خلال 60 يومًا.
+
+8. لا تضحي بحرية الآخرين
+
+حتى لو واجهت ظروفًا تتعارض مع شروط هذه الاتفاقية (الناتجة عن متطلبات المحكمة أو الاتفاقيات أو غير ذلك)، فلن يكون ذلك سببًا لخرق هذه الاتفاقية. إذا لم تتمكن من تلبية هذه الاتفاقية والمتطلبات الأخرى، فيجب عليك عدم انتهاك الاتفاقية (مثل عدم الاستخدام، أو عدم التعديل، أو عدم إعادة التوجيه، وما إلى ذلك).
+
+9. لا يوجد ضمان/نطاق المسؤولية المقدمة
+
+لا يوجد ضمان لجودة هذا البرنامج ضمن نطاق القانون المعمول به. ما لم ينص على خلاف ذلك كتابيًا، فإن صاحب حقوق الطبع والنشر ومقدمي البرامج الآخرين "لا يقدمون" أي ضمانات جودة صريحة أو ضمنية، والتي تشمل على سبيل المثال لا الحصر ضمانات القيمة الاقتصادية والملاءمة لغرض معين. إن كامل المخاطر المتعلقة بجودة وأداء البرنامج تقع على عاتقك وحدك. في حالة وجود خلل في البرنامج، فإنك تتحمل تكلفة جميع خدمات الإصلاح والتصحيح الضرورية. لن يكون أي صاحب حقوق الطبع والنشر أو تعديل أو موزع من طرف ثالث للبرنامج الذي قد يكون موجودًا بموجب هذه الاتفاقية مسؤولاً عن خسائرك، بما في ذلك أي أضرار عامة أو خاصة أو عرضية ناتجة عن استخدام البرنامج أو عدم القدرة على استخدامه أو خسائر كبيرة (بما في ذلك على سبيل المثال لا الحصر، فقدان البيانات، وتشويه البيانات، والخسائر اللاحقة لك أو لطرف ثالث، وعدم قدرة البرامج الأخرى على العمل جنبًا إلى جنب مع هذا البرنامج).
+
+ينتهي الاتفاق.
+ترخيص عقل
+الطبعة الأولى
+3 أكتوبر 2023
+
+
+
+Licencia AQL
+Edición 1, 3 de octubre de 2023
+
+Copyright (C) 2023 Proyecto AQ
+
+【declaración】
+
+La licencia AQL es un aviso legal gratuito que protege los derechos de autor y otro tipo de obras.
+
+Cualquiera (que no sea el creador de la licencia y esté autorizado por el creador de la licencia) puede copiar y distribuir copias literales del contenido de este archivo de licencia, pero no se permiten cambios.
+
+Si desea utilizar una licencia AQL, primero obtenga la autorización del creador de la licencia.
+
+Para evitar disputas legales, prevalecerá la versión china de este acuerdo y las demás versiones son solo como referencia.
+
+【Términos y condiciones】
+
+〇 Definición
+
+"Este Acuerdo" se refiere a la primera versión de la Licencia AQL.
+
+"Derechos de autor" significa todos los derechos de autor y las leyes relacionadas (y también leyes similares aplicables a otros tipos de trabajos, como las máscaras de semiconductores).
+
+"El Programa" significa cualquier trabajo con derechos de autor protegido por este Acuerdo. A cada licenciatario se le denomina "usted". Los "titulares de permisos" y los "destinatarios" pueden ser personas u organizaciones y cualquier asunto responsable (por ejemplo, un proceso automatizado gestionado por una empresa).
+
+Por "modificación" de una obra se entiende cualquier forma de reproducción y adaptación de la obra total o parcialmente, excluyendo la realización de copias. El trabajo resultante se denomina "versión modificada" del trabajo anterior, o trabajo "basado en" el trabajo anterior.
+
+"Trabajo Protegido" significa el Programa o un trabajo derivado del mismo.
+
+"Propagar" una obra significa cualquier acto que constituiría una infracción directa o indirecta de las leyes de derechos de autor aplicables, incluida la ejecución en una computadora y la modificación privada, sin permiso. La propagación incluye la reproducción, distribución (con o sin modificación), divulgación al público y, en algunos países, otros actos.
+
+"Reenviar" una obra significa el acto de permitir que otra parte haga o reciba copias. Simplemente interactuar con los usuarios a través de una red informática sin transmitir una copia no se considera reenvío.
+
+Una interfaz de usuario interactiva que muestre un "aviso legal apropiado" debe incluir una característica visual conveniente y llamativa que: (1) muestre un aviso de derechos de autor apropiado; y (2) informe al usuario que no hay garantía (a menos que se establezca una garantía). proporcionó).
+
+1. código fuente
+
+El código fuente de una obra se refiere a su forma modificable preferida y el código objeto se refiere a todas las demás formas.
+
+"Interfaz estándar" se refiere a una interfaz en un estándar oficial definido por una organización de estandarización, o una interfaz configurada para un determinado lenguaje de programación que es ampliamente utilizado por los desarrolladores.
+
+Las "bibliotecas del sistema" en un trabajo ejecutable no se refieren al programa completo, sino que incluyen contenido que: (a) está empaquetado con el componente principal en su forma habitual pero no forma parte de este último, y (b) se usa sólo con el componente principal El trabajo puede usar o implementar ciertas interfaces que han implementado públicamente el código fuente. "Componente principal" aquí se refiere a los componentes necesarios (kernel, sistema de ventanas, etc.) del sistema operativo (si corresponde) del que depende el trabajo ejecutable, el compilador que genera el trabajo o el intérprete de código objeto necesario para ejecutar el trabajar.
+
+"Código fuente correspondiente" en un trabajo en forma de código objeto significa todo el código fuente necesario para modificar el trabajo y generar, instalar y ejecutar (para trabajos ejecutables) el código objeto, incluidos los scripts que controlan las acciones anteriores.
+
+La Fuente Correspondiente de una obra en forma fuente es ella misma.
+
+2. Licencia Básica
+
+Todos los derechos otorgados en este Acuerdo son para los derechos de autor del Programa. Sujeto a este Acuerdo, se le concede expresamente permiso ilimitado para ejecutar, modificar, distribuir y reenviar cualquier versión pública del Programa.
+
+Se permiten diversas acciones en otras situaciones (incluidos los derechos mencionados anteriormente) solo si se cumplen las condiciones que se indican a continuación.
+
+3. Envíe una copia completa
+
+Puede distribuir la copia completa del código fuente del Programa que reciba a través de cualquier medio, pero debe: publicar de manera destacada y adecuada los derechos de autor de cada copia (el nombre, la introducción y la descripción del Programa deben indicarse al publicar y antes de reenviarlo a usuarios. Licenciar el contenido); conservar completamente el contenido de este Acuerdo y los requisitos del acuerdo relacionados; conservar completamente la exención de responsabilidad; y adjuntar una copia de este Acuerdo al destinatario.
+
+Puede reenviarlo de forma gratuita o pagando una tarifa, o puede optar por brindar soporte técnico o garantía de calidad (si cambia el código fuente, cumpla con las disposiciones del Artículo 4) a cambio de ingresos.
+
+4. Reenviar la versión del código fuente modificado.
+
+Puede reenviar trabajos o contenido modificado basado en este programa en forma de código fuente. Además de cumplir con los requisitos pertinentes, también debe cumplir con los siguientes requisitos:
+
+a) La obra debe llevar una declaración de modificación llamativa (incluyendo contenido y funciones modificadas) y la fecha correspondiente.
+
+b) La obra debe llevar una declaración destacada que indique que se publica según este Acuerdo y las condiciones relacionadas.
+
+c) Debe autorizar el trabajo en su totalidad al creador de este programa de acuerdo con este acuerdo, y permitir que el creador lo autorice a un tercero (el tercero no puede volver a autorizarlo). Esto asegurará el desarrollo de este programa (solo se permite el trabajo de desarrollo, este programa El creador del programa no puede otorgar sublicencias y actividades relacionadas con fines comerciales y otros motivos), incluso si su programa es un programa comercial. Este Acuerdo y las condiciones relacionadas se aplican a todo el trabajo, es decir, a cada parte del mismo, independientemente de cómo esté empaquetado. Este Acuerdo le permite agregar sus propios términos, pero no puede violar el contenido de este Acuerdo de ninguna forma; de lo contrario, este término no será válido, pero será diferente si recibe otros permisos.
+
+d) Si la obra tiene una interfaz de usuario interactiva, deberá mostrar los avisos relacionados apropiados.
+
+e) Si su programa es un programa comercial, solo podrá cumplir con la cláusula (d) y proporcionar licencias y sublicencias únicamente al creador del programa.
+
+f) "Autorización" en esta cláusula se refiere a permitir que el creador de este programa tenga la autorización pertinente para ver y utilizar el código fuente de la "versión modificada" del trabajo anterior (si la "versión modificada" del trabajo anterior es comercial software, el creador está obligado a proteger los secretos comerciales y no puede divulgar el código fuente y las obras, pero aún puede utilizar parte del código fuente y las obras para el desarrollo del programa, sin mencionar el código fuente y la fuente de la obra, a menos que esté autorizado por el modificador), utilice la "versión modificada" del trabajo anterior (solo se permite trabajo de desarrollo, el creador de este programa no puede sublicenciar actividades relacionadas con fines comerciales y otros motivos), y recomienda la "versión modificada" del programa anterior (comuníquese con el creador de este programa si no está de acuerdo).
+
+g) Software comercial se refiere a programas que no revelan el código fuente a los usuarios y tienen un modelo de ganancias o razones específicas para proteger el código fuente.
+
+Una obra conjunta de una obra protegida y otras obras separadas en un medio de almacenamiento o distribución que no es una extensión natural de la obra protegida ni sirve al propósito de enmarcar un programa más amplio y no es ni ella misma ni su fuente Cuando los derechos de autor no se utilizan para restringir el acceso y otros derechos legales de una sola obra a los usuarios de una obra conjunta, se denomina "agregado". Este Acuerdo también se aplica a trabajos agregados. Si los términos de otros trabajos entran en conflicto con este Acuerdo, no cree, use, reenvíe, difunda ni modifique este trabajo.
+
+5. Reenvío en otras formas
+
+Siga las disposiciones pertinentes del artículo 4.
+
+6. Términos adicionales
+
+Este Acuerdo puede contener lagunas jurídicas o no adaptarse a formas futuras. Por lo tanto, para evitar que tal situación ocurra, este Acuerdo puede compensarse actualizándolo. El nuevo acuerdo tendrá un período de publicidad de 15 días. Debe consultar el último acuerdo de licencia al utilizar, modificar, reenviar y difundir este programa. Si no está de acuerdo con el acuerdo de licencia, puede discutir y negociar una nueva autorización con el creador de este programa Acuerdo/Método. De lo contrario, deberá dejar de utilizar el software una vez finalizado el período de publicidad. Cualquier comportamiento debe cumplir con el nuevo acuerdo. La actualización del acuerdo es aplicable a la versión anterior, pero si el acuerdo se ha actualizado, aún tendrá derecho a utilizar el software que descargó antes de que finalice el período de publicidad del nuevo acuerdo (solo este derecho), pero si descarga la versión anterior del software después de que finalice el período de publicidad del acuerdo, prevalecerá el nuevo acuerdo.
+
+7. Terminación de la autorización
+
+Cualquier violación de este Acuerdo por su parte y recepción de quejas (como solicitudes de autoridades estatales) resultará en la terminación de la autorización (incluidos, entre otros, sus trabajos derivados, es decir, la "versión modificada" del trabajo anterior). .
+
+Sin embargo, cuando usted ya no viola este Acuerdo y se revoca la queja relacionada, su autorización de un titular de derechos de autor específico se restablece: (1) temporalmente hasta que el titular de los derechos de autor la rescinda explícitamente; (2) permanentemente si el titular de los derechos de autor El titular no cumple con señalar su infracción de manera razonable dentro de los 60 días.
+
+8. No sacrifiques la libertad de los demás
+
+Incluso si enfrenta condiciones que entran en conflicto con los términos de este Acuerdo (resultantes de requisitos judiciales, acuerdos u otros), eso no será una razón para que usted incumpla este Acuerdo. Si no puede cumplir con este Acuerdo y otros requisitos, no debe violar el Acuerdo (como no usarlo, no modificarlo, no reenviarlo, etc.).
+
+9. No se proporciona garantía/alcance de responsabilidad
+
+No hay garantía por la calidad de este programa dentro del alcance de la ley aplicable. A menos que se indique lo contrario por escrito, el titular de los derechos de autor y otros proveedores de programas "no ofrecen" ninguna garantía de calidad explícita o implícita, que incluye, entre otras, garantías de valor económico e idoneidad para un propósito particular. Todo el riesgo en cuanto a la calidad y el rendimiento del Programa recae exclusivamente en usted. EN CASO DE UN DEFECTO EN EL PROGRAMA, USTED ASUME EL COSTO DE TODAS LAS REPARACIONES Y SERVICIOS CORRECTORES NECESARIOS. Ningún titular de derechos de autor ni modificación o redistribuidor del programa por parte de terceros que pueda existir según este acuerdo será responsable de sus pérdidas, incluidos los daños generales, especiales o incidentales que resulten del uso o la imposibilidad de usar el programa, o pérdidas significativas (incluyendo pero no limitado a pérdida de datos, distorsión de datos, pérdidas posteriores para usted o un tercero y la incapacidad de otros programas para operar junto con este programa).
+
+El acuerdo termina.
+Licencia AQL
+primera edición
+3 de octubre de 2023
+
+
+
+Licence AQL
+Édition 1, 3 octobre 2023
+
+Copyright (C) 2023 Projet AQ
+
+【déclaration】
+
+La licence AQL est une mention légale gratuite qui protège les droits d'auteur et d'autres types d'œuvres.
+
+Toute personne (autre que le créateur de la licence et autorisée par le créateur de la licence) peut copier et distribuer des copies textuelles du contenu de ce fichier de licence, mais aucune modification n'est autorisée.
+
+Si vous souhaitez utiliser une licence AQL, veuillez d'abord obtenir l'autorisation du créateur de la licence.
+
+Pour éviter les litiges juridiques, la version chinoise de cet accord prévaudra et les autres versions sont fournies à titre de référence uniquement.
+
+【termes et conditions】
+
+〇.Définition
+
+« Cet accord » fait référence à la première version de la licence AQL.
+
+« Copyright » désigne toutes les lois sur le droit d'auteur et connexes (ainsi que les lois similaires applicables à d'autres types d'œuvres telles que les masques semi-conducteurs).
+
+« Le Programme » désigne toute œuvre protégée par le droit d'auteur et protégée par le présent Accord. Chaque titulaire de licence est appelé « vous ». Les « titulaires de permis » et les « destinataires » peuvent être des individus ou des organisations et toute personne responsable (par exemple, un processus automatisé géré par une entreprise).
+
+« Modification » d'une œuvre désigne toute forme de reproduction et d'adaptation de l'œuvre en tout ou partie, à l'exclusion de la réalisation de copies. L'œuvre résultante est appelée une « version modifiée » de l'œuvre précédente, ou une œuvre « basée sur » l'œuvre précédente.
+
+« Œuvre protégée » désigne le Programme ou une œuvre dérivée de celui-ci.
+
+« Propagation » d'une œuvre désigne tout acte qui constituerait une violation directe ou indirecte de la loi applicable sur le droit d'auteur, y compris l'exécution sur un ordinateur et la modification privée, sans autorisation. La propagation comprend la reproduction, la distribution (avec ou sans modification), la divulgation au public et, dans certains pays, d'autres actes.
+
+« Transmettre » une œuvre désigne l'acte de permettre à un tiers d'en faire ou de recevoir des copies. Le simple fait d'interagir avec les utilisateurs via un réseau informatique sans transmettre de copie n'est pas considéré comme une redirection.
+
+Une interface utilisateur interactive qui affiche une « mention légale appropriée » doit inclure une fonctionnalité visuelle pratique et accrocheuse qui : (1) affiche une mention de droit d'auteur appropriée ; et (2) informe l'utilisateur qu'il n'y a aucune garantie (sauf si une garantie est fourni).
+
+1.Code source
+
+Le code source d'une œuvre fait référence à sa forme modifiable préférée, et le code objet fait référence à toutes les autres formes.
+
+« Interface standard » fait référence à une interface dans une norme officielle définie par un organisme de normalisation, ou à une interface définie pour un certain langage de programmation largement utilisé par les développeurs.
+
+Les « bibliothèques système » dans une œuvre exécutable ne font pas référence à l'intégralité du programme, mais incluent du contenu qui : (a) est fourni avec le composant principal sous sa forme habituelle mais ne fait pas partie de ce dernier, et (b) est utilisé uniquement avec le composant principal L'œuvre peut utiliser ou implémenter certaines interfaces dont le code source est implémenté publiquement. "Composant principal" fait ici référence aux composants nécessaires (noyau, système de fenêtres, etc.) du système d'exploitation (le cas échéant) dont dépend le travail exécutable, au compilateur qui génère le travail ou à l'interpréteur de code objet requis pour exécuter le travail. travail.
+
+« Code source correspondant » dans une œuvre sous forme de code objet désigne tout le code source requis pour modifier l'œuvre et générer, installer et exécuter (pour les œuvres exécutables) le code objet, y compris les scripts qui contrôlent les actions ci-dessus.
+
+La source correspondante d’une œuvre sous forme source est elle-même.
+
+2. Licence de base
+
+Tous les droits accordés dans le présent accord concernent le droit d'auteur du programme. Sous réserve du présent Contrat, vous disposez expressément de l'autorisation illimitée d'exécuter, de modifier, de distribuer et de transmettre toute version rendue publique du Programme.
+
+Diverses actions dans diverses autres situations (y compris les droits mentionnés ci-dessus) ne sont autorisées que si les conditions énoncées ci-dessous sont remplies.
+
+3. Envoyez une copie complète
+
+Vous pouvez distribuer la copie complète du code source du Programme que vous recevez sur n'importe quel support, mais vous devez : publier de manière visible et appropriée le droit d'auteur de chaque copie (le nom, l'introduction et la description du Programme doivent être indiqués lors de la publication et avant de l'envoyer à utilisateurs. Contenu de la licence) ; conserver intégralement le contenu du présent Contrat et les exigences de l'accord y afférent ; conserver intégralement la clause de non-responsabilité ; et joindre une copie du présent Contrat au destinataire.
+
+Vous pouvez le transmettre gratuitement ou moyennant des frais, ou vous pouvez choisir de fournir une assistance technique ou une assurance qualité (si vous modifiez le code source, veuillez respecter les dispositions de l'article 4) en échange de revenus.
+
+4. Transférez la version modifiée du code source
+
+Vous pouvez transmettre des œuvres ou du contenu modifié basés sur ce programme sous forme de code source. En plus de répondre aux exigences pertinentes, vous devez également remplir les exigences suivantes :
+
+a) L'œuvre doit porter une déclaration de modification attrayante (incluant le contenu et les fonctions modifiés) et la date correspondante.
+
+b) L'œuvre doit porter une déclaration bien visible indiquant qu'elle est publiée dans le cadre du présent accord et des conditions connexes.
+
+c) Vous devez autoriser l'œuvre dans son ensemble au créateur de ce programme conformément au présent accord, et permettre au créateur de l'autoriser à un tiers (le tiers ne peut pas réautoriser). Cela assurera le développement de ce programme. programme (seuls les travaux de développement sont autorisés, ce programme Le créateur du programme ne peut pas accorder de sous-licence et d'activités connexes à des fins commerciales et pour d'autres raisons), même si votre programme est un programme commercial. Le présent Contrat et les conditions qui y sont associées s'appliquent à l'ensemble de l'œuvre, c'est-à-dire à chaque partie de celle-ci, quelle que soit la manière dont elle est conditionnée. Cet accord vous permet d'ajouter vos propres conditions, mais vous ne pouvez pas violer le contenu de cet accord sous quelque forme que ce soit, sinon ces conditions seront invalides, mais ce sera différent si vous recevez d'autres autorisations.
+
+d) Si l'œuvre dispose d'une interface utilisateur interactive, elle doit afficher les avis connexes appropriés.
+
+e) Si votre programme est un programme commercial, vous ne pouvez vous conformer qu'à la clause (d) et fournir des licences et sous-licences uniquement au créateur du programme.
+
+f) « Autorisation » dans cette clause fait référence au fait de permettre au créateur de ce programme d'avoir l'autorisation appropriée pour visualiser et utiliser le code source de la « version modifiée » de l'œuvre précédente (si la « version modifiée » de l'œuvre précédente est commerciale logiciel, le créateur est tenu de protéger les secrets commerciaux et ne peut pas divulguer le code source et les œuvres, mais vous pouvez toujours utiliser une partie du code source et des œuvres pour le développement de programmes, sans mentionner le code source et la source de l'œuvre, sauf autorisation de le modificateur), utilisez la "version modifiée" du travail précédent (seuls les travaux de développement sont autorisés, le créateur de ce programme ne peut pas accorder de sous-licence et les activités associées à des fins commerciales et pour d'autres raisons), et recommande la "version modifiée" du programme précédent (veuillez contacter le créateur de ce programme si vous n'êtes pas d'accord).
+
+g) Les logiciels commerciaux font référence aux programmes qui ne divulguent pas le code source aux utilisateurs et qui ont un modèle lucratif ou qui ont des raisons spécifiques de protéger le code source.
+
+Une œuvre conjointe d'une œuvre protégée et d'autres œuvres distinctes sur un support de stockage ou de distribution qui n'est ni une extension naturelle de l'œuvre protégée ni ne sert à encadrer un programme plus vaste et n'est ni elle-même ni sa source Lorsque le droit d'auteur n'est pas utilisé pour restreindre l'accès et les autres droits légaux d'une œuvre unique aux utilisateurs d'une œuvre commune, cela est appelé un « agrégat ». Cet accord s'applique également aux œuvres agrégées. Si les termes d'autres œuvres entrent en conflit avec le présent accord, veuillez ne pas créer, utiliser, transmettre, diffuser ou modifier cette œuvre.
+
+5. Transmission sous d'autres formes
+
+Suivre les dispositions pertinentes de l’article 4.
+
+6. Conditions supplémentaires
+
+Le présent Accord peut contenir des lacunes ou ne pas s'adapter aux formes futures. Par conséquent, afin d’éviter qu’une telle situation ne se produise, le présent Accord peut être compensé par une mise à jour. Le nouvel accord aura une période de publicité de 15 jours. Vous devez vérifier le dernier accord de licence lors de l'utilisation, de la modification, du transfert et de la diffusion de ce programme. Si vous n'êtes pas d'accord avec l'accord de licence, vous pouvez discuter et négocier une nouvelle autorisation avec le créateur de ce programme. Accord/Méthode. Sinon, vous devez cesser d'utiliser le logiciel après la fin de la période de publicité. Tout comportement doit respecter le nouvel accord. La mise à jour de l'accord est applicable à l'ancienne version, mais si l'accord a été mis à jour, vous aurez toujours le droit d'utiliser le logiciel que vous avez téléchargé avant la fin de la période de publicité du nouvel accord (uniquement ce droit), mais si vous téléchargez l'ancienne version du logiciel après la fin de la période de publicité de l'accord, le nouvel accord prévaudra.
+
+7. Résiliation de l'autorisation
+
+Toute violation du présent Accord par vous et la réception de plaintes (telles que des demandes des autorités de l'État) entraîneront la résiliation de l'autorisation (y compris, mais sans s'y limiter, ses œuvres dérivées, c'est-à-dire la « version modifiée » de l'œuvre précédente). .
+
+Cependant, lorsque vous ne violez plus le présent Accord et que la plainte correspondante est révoquée, votre autorisation d'un détenteur de droit d'auteur spécifique est restaurée : (1) temporairement jusqu'à ce qu'elle soit explicitement résiliée par le détenteur du droit d'auteur ; (2) de façon permanente si le détenteur du droit d'auteur Le titulaire ne parvient pas à signaler votre infraction de manière raisonnable dans un délai de 60 jours.
+
+8. Ne sacrifiez pas la liberté des autres
+
+Même si vous êtes confronté à des conditions incompatibles avec les termes du présent Contrat (résultant d'exigences judiciaires, d'accords ou autres), cela ne constituera pas une raison pour que vous violiez le présent Contrat. Si vous ne pouvez pas respecter le présent Contrat et d'autres exigences, vous ne devez pas violer le Contrat (par exemple ne pas utiliser, ne pas modifier, ne pas transférer, etc.).
+
+9. Aucune garantie/étendue de la responsabilité fournie
+
+Il n'y a aucune garantie pour la qualité de ce programme dans le cadre de la loi applicable. Sauf indication contraire par écrit, le détenteur des droits d'auteur et les autres fournisseurs de programmes « ne fournissent » aucune garantie de qualité explicite ou implicite, qui inclut, sans toutefois s'y limiter, des garanties de valeur économique et d'adéquation à un usage particulier. L'intégralité des risques liés à la qualité et à la performance du Programme incombe uniquement à vous. EN CAS DE DÉFAUT DANS LE PROGRAMME, VOUS ASSUMEZ LE COÛT DE TOUS LES SERVICES DE RÉPARATION ET DE CORRECTION NÉCESSAIRES. Aucun détenteur de droits d'auteur ou tiers modifiant ou redistributeur du programme pouvant exister en vertu du présent accord ne sera responsable de vos pertes, y compris de tout dommage général, spécial ou accidentel résultant de l'utilisation ou de l'incapacité d'utiliser le programme. ou des pertes importantes (y compris mais sans s'y limiter, la perte de données, la distorsion des données, les pertes ultérieures pour vous ou un tiers et l'incapacité d'autres programmes à fonctionner conjointement avec ce programme).
+
+L'accord prend fin.
+Licence AQL
+première édition
+3 octobre 2023
+
+
+
+AQL-лицензия
+Выпуск 1, 3 октября 2023 г.
+
+Copyright (C) 2023 AQ-Project
+
+【заявление】
+
+Лицензия AQL — это бесплатное юридическое уведомление, защищающее авторские права и другие виды произведений.
+
+Любой человек (кроме создателя лицензии и уполномоченный создателем лицензии) может копировать и распространять дословные копии содержимого этого файла лицензии, но никакие изменения не допускаются.
+
+Если вы хотите использовать лицензию AQL, сначала получите разрешение от создателя лицензии.
+
+Во избежание юридических споров китайская версия настоящего соглашения имеет преимущественную силу, а остальные версии предназначены только для справки.
+
+【условия и положения】
+
+〇 Определение
+
+«Настоящее Соглашение» относится к первой версии Лицензии AQL.
+
+«Авторское право» означает все законы об авторском праве и связанные с ним законы (а также аналогичные законы, применимые к другим типам произведений, таким как полупроводниковые маски).
+
+«Программа» означает любую работу, защищенную авторским правом и защищенную настоящим Соглашением. Каждый лицензиат упоминается как «вы». «Владельцами разрешений» и «получателями» могут быть физические лица или организации, а также любое ответственное лицо (например, автоматизированный процесс, управляемый компанией).
+
+«Модификация» произведения означает любую форму воспроизведения и адаптации произведения полностью или частично, за исключением изготовления копий. Полученная работа называется «модифицированной версией» предыдущей работы или работой, «основанной» на предыдущей работе.
+
+«Защищенная работа» означает Программу или ее производную работу.
+
+«Распространение» произведения означает любое действие, которое представляет собой прямое или косвенное нарушение действующего законодательства об авторском праве, включая запуск на компьютере и частную модификацию без разрешения. Распространение включает воспроизведение, распространение (с модификациями или без них), раскрытие для всеобщего сведения, а в некоторых странах и другие действия.
+
+«Пересылка» произведения означает предоставление другой стороне возможности сделать или получить копии. Простое взаимодействие с пользователями через компьютерную сеть без передачи копии не считается пересылкой.
+
+Интерактивный пользовательский интерфейс, отображающий «соответствующее юридическое уведомление», должен включать удобную и привлекательную визуальную функцию, которая: (1) отображает соответствующее уведомление об авторских правах и (2) информирует пользователя об отсутствии гарантии (если гарантия не предусмотрена). предоставил).
+
+1. Исходный код
+
+Исходный код произведения относится к его предпочтительной изменяемой форме, а объектный код относится ко всем остальным формам.
+
+«Стандартный интерфейс» относится к интерфейсу официального стандарта, определенного организацией по стандартизации, или набору интерфейсов для определенного языка программирования, который широко используется разработчиками.
+
+«Системные библиотеки» в исполняемом произведении не обозначают всю программу, а включают в себя контент, который: (а) упаковывается вместе с основным компонентом в его обычном виде, но не является частью последнего, и (б) используется только с Основной компонент. В работе могут использоваться или реализовываться определенные интерфейсы с общедоступным исходным кодом. «Основной компонент» здесь относится к необходимым компонентам (ядро, оконная система и т. д.) операционной системы (если таковая имеется), от которых зависит работа исполняемого файла, компилятору, генерирующему работу, или интерпретатору объектного кода, необходимому для запуска работа.
+
+«Соответствующий исходный код» в произведении в виде объектного кода означает весь исходный код, необходимый для модификации произведения, а также формирования, установки и запуска (для исполняемых произведений) объектного кода, включая сценарии, управляющие вышеуказанными действиями.
+
+Соответствующим источником произведения в исходной форме является оно само.
+
+2. Базовая лицензия
+
+Все права, предоставленные в настоящем Соглашении, принадлежат авторским правам на Программу. В соответствии с настоящим Соглашением вам прямо предоставляется неограниченное разрешение на запуск, изменение, распространение и пересылку любой общедоступной версии Программы.
+
+Различные действия в различных других ситуациях (включая упомянутые выше права) допускаются только при соблюдении условий, изложенных ниже.
+
+3. Отправьте полную копию
+
+Вы можете распространять полученную вами полную копию исходного кода Программы любым способом, но вы обязаны: на видном месте и надлежащим образом публиковать авторские права на каждую копию (название, введение и описание Программы должны быть указаны при публикации и перед отправкой в пользователей. Содержимое лицензии); полностью сохранить содержание настоящего Соглашения и связанные с ним требования; полностью сохранить отказ от ответственности; и приложить копию настоящего Соглашения получателю.
+
+Вы можете пересылать его бесплатно или за плату, либо можете предоставить техническую поддержку или гарантию качества (если вы меняете исходный код, соблюдайте положения статьи 4) в обмен на доход.
+
+4. Отправьте измененную версию исходного кода.
+
+Вы можете пересылать работы или модифицированный контент на основе этой программы в виде исходного кода.Помимо соответствия соответствующим требованиям, вам также необходимо выполнить следующие требования:
+
+а) Работа должна содержать заметное заявление об изменении (включая измененное содержание и функции) и соответствующую дату.
+
+б) Работа должна содержать заметное заявление о том, что она выпущена в соответствии с настоящим Соглашением и связанными с ним условиями.
+
+в) Вы должны авторизовать произведение в целом создателю этой программы в соответствии с настоящим соглашением и разрешить создателю авторизовать его третьему лицу (третье лицо не может повторно авторизовать).Это обеспечит развитие данной программы. программа (разрешены только разработки, эту программу Создатель программы не может сублицензировать и связанную с ней деятельность в коммерческих целях и по другим причинам), даже если ваша программа является коммерческой программой. Настоящее Соглашение и связанные с ним условия распространяются на всю работу, то есть на каждую ее часть, независимо от того, как она упакована. Настоящее Соглашение позволяет вам добавлять свои собственные условия, но вы не можете нарушать содержание настоящего Соглашения ни в какой форме, в противном случае это условие будет недействительным, но ситуация будет иной, если вы получите другие разрешения.
+
+г) Если произведение имеет интерактивный пользовательский интерфейс, оно должно отображать соответствующие соответствующие уведомления.
+
+д) Если ваша программа является коммерческой программой, вы можете соблюдать только пункт (d) и предоставлять лицензии и сублицензии только создателю программы.
+
+е) «Разрешение» в этом пункте означает разрешение создателю этой программы иметь соответствующее разрешение на просмотр и использование исходного кода «модифицированной версии» предыдущей работы (если «модифицированная версия» предыдущей работы является коммерческой). программного обеспечения, создатель обязан защищать коммерческую тайну и не может Раскрывать исходный код и произведения, но вы все равно можете использовать часть исходного кода и произведений для разработки программы, без упоминания исходного кода и источника произведения, за исключением случаев, когда это разрешено модификатор), использовать «модифицированную версию» предыдущей работы (разрешены только опытно-конструкторские работы, создатель этой программы не может сублицензировать и сопутствующую деятельность в коммерческих целях и по другим причинам) и рекомендует «модифицированную версию» предыдущей программы (пожалуйста, свяжитесь с создателем этой программы, если вы не согласны).
+
+ж) Коммерческое программное обеспечение относится к программам, которые не раскрывают исходный код пользователям и имеют модель получения прибыли или имеют конкретные причины для защиты исходного кода.
+
+Совместное произведение охраняемого произведения и других отдельных отдельных произведений на носителе хранения или распространения, которое не является естественным продолжением охраняемого произведения и не служит цели создания более крупной программы и не является ни само по себе, ни ее источником. Когда авторское право не используется для ограничивать доступ и другие законные права отдельного произведения пользователям совместного произведения, оно называется «агрегатом». Настоящее Соглашение также применяется к совокупным произведениям. Если условия других работ противоречат настоящему Соглашению, не создавайте, не используйте, не пересылайте, не распространяйте и не изменяйте эту работу.
+
+5. Переадресация в других формах
+
+Следуйте соответствующим положениям статьи 4.
+
+6. Дополнительные условия
+
+Настоящее Соглашение может содержать лазейки или не адаптироваться к будущим формам. Поэтому, во избежание возникновения подобной ситуации, настоящее Соглашение можно компенсировать путем его обновления. Новое соглашение будет иметь 15-дневный период публикации. Вам следует проверять последнюю версию лицензионного соглашения при использовании, изменении, пересылке и распространении этой программы. Если вы не согласны с лицензионным соглашением, вы можете обсудить и договориться о новом разрешении с создатель этой программы Соглашение/Метод. В противном случае вам следует прекратить использование программного обеспечения после окончания периода рекламы. Любое поведение должно соответствовать новому соглашению. Обновление соглашения применимо к старой версии, но если соглашение было обновлено, вы по-прежнему будете иметь право использовать загруженное вами программное обеспечение до окончания периода публичности. новое соглашение (только это право), но если вы загрузите старую версию программного обеспечения после окончания периода публикации соглашения, новое соглашение будет иметь преимущественную силу.
+
+7. Прекращение авторизации
+
+Любое нарушение вами настоящего Соглашения и получение жалоб (например, запросов от государственных органов) приведет к прекращению действия разрешения (включая, помимо прочего, его производные работы, то есть «модифицированную версию» предыдущей работы). .
+
+Однако, когда вы больше не нарушаете настоящее Соглашение и соответствующая жалоба отменяется, ваше разрешение от конкретного правообладателя восстанавливается: (1) временно до тех пор, пока оно не будет явно прекращено владельцем авторских прав; (2) навсегда, если владелец авторских прав Владелец не сможет укажите на ваше нарушение разумным образом в течение 60 дней.
+
+8. Не жертвуйте свободой других
+
+Даже если вы столкнетесь с условиями, противоречащими условиям настоящего Соглашения (в результате судебных требований, соглашений или иным образом), это не будет для вас основанием для нарушения настоящего Соглашения. Если вы не можете выполнить настоящее Соглашение и другие требования, вы не должны нарушать Соглашение (например, не использовать, не изменять, не пересылать и т. д.).
+
+9. Никаких гарантий/объема ответственности не предусмотрено.
+
+Нет никаких гарантий качества этой программы в рамках действующего законодательства. Если иное не указано в письменной форме, правообладатель и другие поставщики программ «не предоставляют» каких-либо явных или неявных гарантий качества, которые включают, помимо прочего, гарантии экономической ценности и пригодности для конкретной цели. Весь риск, связанный с качеством и производительностью Программы, лежите исключительно на вас. В СЛУЧАЕ ДЕФЕКТА В ПРОГРАММЕ ВЫ ПРИНИМАЕТЕ СТОИМОСТЬ ВСЕХ НЕОБХОДИМЫХ РЕМОНТНЫХ И КОРРЕКТИРУЮЩИХ УСЛУГ. Никакой владелец авторских прав или третья сторона, модифицирующая или переиздающая программу, которая может существовать в соответствии с настоящим соглашением, не несет ответственности за ваши убытки, включая любые общие, особые или случайные убытки, вызванные использованием или невозможностью использования программы, или значительные убытки ( включая, помимо прочего, потерю данных, искажение данных, последующие потери для вас или третьего лица, а также неспособность других программ работать совместно с этой программой).
+
+Соглашение заканчивается.
+AQL-лицензия
+первое издание
+3 октября 2023 г.
