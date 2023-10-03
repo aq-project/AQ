@@ -1,11 +1,11 @@
 # AQ Project
-##All languages
-1. English
-2. 中文
+## All languages
+  1. English
+  2. 中文
 3. عربي
-4. español
-5. Français
-6. Русский
+  4. español
+  5. Français
+  6. Русский
 ### English
 #### What's this?
 ##### This is a super APP with decentralized functions. It supports multiple programming languages. It does not need to be compiled into a program. It can directly call the system modules. It is as light and fast as a web page, but its functions are more complete. It is similar to a small program to a certain extent, but The program is open source and does not depend on specific programs. At the same time, it can adapt to all applications, write once and run on multiple terminals. Maybe this is a great piece of work.
