@@ -2,7 +2,7 @@
 ## All languages
   1. [English](#english)
   2. [中文](#中文)
-3. [عربي](###عربي)
+3. [عربي](#عربي)
   4. [español](#español)
   5. [Français](#Français)
   6. [Русский](#Русский)
